@@ -1,0 +1,8 @@
+clarkwinkelmann-silent-mailchimp:
+    admin:
+        settings:
+            title: Réglages Silent Mailchimp
+            api-key: API Key
+            api-key-help: Vous pouvez créer une clé via la section <a>API Keys</a> sous Account > Extras.
+            list-id: List ID
+            list-id-help: Vous pouvez trouver l'identifiant sur la page <a>Audiences</a>. Cliquez sur la liste puis Settings > Audience name > Audience ID.
