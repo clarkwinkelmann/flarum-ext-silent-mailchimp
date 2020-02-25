@@ -4,9 +4,14 @@
 
 This extensions silently adds new Flarum users to a Mailchimp list.
 
-There are no settings for the users. Admins can customize the API Key and lList ID in the admin panel.
-
 The intent is to use it with Mailchimp's automated workflows, not newsletters.
+
+There are no settings for the users. Admins can customize the API Key and List ID in the admin panel.
+
+You can choose between adding users after email validation (default) or immediately after registration.
+For social login either option will trigger at the same time.
+
+The extension is compatible with queues.
 
 ## Installation
 
