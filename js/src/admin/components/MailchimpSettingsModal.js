@@ -1,5 +1,6 @@
 import app from 'flarum/app';
 import SettingsModal from 'flarum/components/SettingsModal';
+import Select from 'flarum/components/Select';
 
 /* global m */
 
@@ -38,6 +39,17 @@ export default class MailchimpSettingsModal extends SettingsModal {
                         href: 'https://us1.admin.mailchimp.com/lists/',
                     }),
                 })),
+            ]),
+            m('.Form-group', [
+                m('label', app.translator.trans(translationPrefix + 'when')),
+                Select.component({
+                    options: {
+                        activated: app.translator.trans(translationPrefix + 'when-options.activated'),
+                        registered: app.translator.trans(translationPrefix + 'when-options.registered'),
+                    },
+                    value: this.setting(settingsPrefix + 'when')() || 'activated',
+                    onchange: this.setting(settingsPrefix + 'when'),
+                }),
             ]),
         ];
     }
