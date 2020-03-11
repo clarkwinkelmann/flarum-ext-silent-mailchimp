@@ -21,3 +21,6 @@ The extension is compatible with queues.
 
 - [GitHub](https://github.com/clarkwinkelmann/flarum-ext-silent-mailchimp)
 - [Packagist](https://packagist.org/packages/clarkwinkelmann/flarum-ext-silent-mailchimp)
+- [Discuss](https://discuss.flarum.org/d/23079)
+
+The initial version of this extension has been sponsored by [HereWeLink](https://www.herewelink.fr/)
